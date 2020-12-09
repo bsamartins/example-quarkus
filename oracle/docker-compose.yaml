@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  oracle:
+    image: bunomonteiro/oraclexe:18.4.0
+    ports:
+      - 1521:1521
+    environment:
+      ORACLE_PWD: password
